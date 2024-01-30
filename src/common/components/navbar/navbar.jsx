@@ -13,7 +13,10 @@ function navBar() {
 
 					<Col md={6} className=" d-md-flex d-none justify-content-end ">
 
+					<a href="#containerFormID">
+
 						<p className={`${Styles['reqDemoBtn']} d-inline-block`}>Request a demo <BsArrowRight /> </p>
+					</a>
 					</Col>
 				</Row>
 			</Container>
