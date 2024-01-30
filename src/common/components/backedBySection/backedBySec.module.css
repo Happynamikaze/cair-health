@@ -1,0 +1,7 @@
+.backLogo{
+width: 8rem;
+	filter: drop-shadow(rgba(100, 100, 111, 0.2) 0px 7px 29px 0px);
+}
+.backLogoDiv{
+	background-color: #7883a3;
+}

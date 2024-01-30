@@ -1,0 +1,27 @@
+
+.header.glass{
+	position: sticky;
+	top: 0px;
+	z-index: 9999999999;
+	background-color: var(--glass-bg) ;
+	backdrop-filter: blur(7px);
+	border: 1px solid var(--glass-bg-border) !important	;
+	box-shadow: 0 10px 30px -15px var(--primary-color-purple-dark) ;
+	background-color: transparent ;
+	box-shadow: none;
+	background-color: var(--theme-bg-light);
+}
+.reqDemoBtn{
+	border-radius:7px;
+	padding: 9px 16px;
+	font-weight: 500;
+	background-color: var(--theme-blue-dark-light);
+	transition:  all 0.3s ease-in-out;
+	border: 2px solid var(--theme-blue-dark-light);
+
+}
+.reqDemoBtn:hover{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: var(--glass-bg);
+	border: 2px solid var(--theme-blue-dark-light);
+}

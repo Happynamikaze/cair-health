@@ -1,0 +1,9 @@
+
+.ceoimg img{
+
+	--size:10rem;
+	width: var(--size) ;
+	height: var(--size);
+	border-radius: 50%;
+
+}

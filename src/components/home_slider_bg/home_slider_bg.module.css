@@ -1,0 +1,34 @@
+.ContainerWidCus{
+	width: 100dvw;
+}
+.widSet{
+	outline: none !important;	
+	overflow: hidden;
+	width: 100dvw;
+	max-height: 70dvh ;
+	object-fit: cover;
+}
+.req_btn_div{
+	position: absolute;
+	top: 40%;
+	right: 20%;
+	left: 20%;
+
+}
+.req_btn{
+	
+	/* transform: translateX(50%) translateY(50%); */
+	background-color: var(--theme-blue-dark);
+	padding: 12px 4px ;
+	border-radius: 12px;
+	width: 16rem;
+	transition: all 0.3s ease-in-out;
+	border: 2px solid var(--theme-blue-dark);
+
+}
+.req_btn:hover{
+	font-weight: 600;
+	color: var(--text-color-dark);
+	border: 2px solid var(--theme-blue-light);
+	background-color: var(--theme-bg-light);
+}
