@@ -23,6 +23,9 @@ body{
 p{
 	margin: unset;
 }
+a{
+	text-decoration: none;
+}
 .pad-0cus{
 	padding: 0px;
 }
@@ -84,3 +87,21 @@ font-family: var(--font-merriweather);
 .slick-dots li.slick-active button:before{
 color: var(--theme-blue-dark) !important;
 }
+
+@media (max-width: 767px) {
+	.f-25{
+		font-size: 15px;
+	}
+	.f-20{
+		font-size: 15px;
+	}
+	.f-27{
+		font-size: 18px;
+	}
+	.f-15{
+		font-size: 13px	;
+	}
+	body {
+	  background-color: lightgreen;
+	}
+  }

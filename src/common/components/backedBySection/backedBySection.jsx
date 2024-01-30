@@ -17,6 +17,9 @@ function BackedBySection() {
 		autoplaySpeed: 2000,
 		responsive: [
 			{
+				className: 'slider-items align-items-center',
+				dots:true,
+
 				breakpoint: 480, 
 				settings: {
 					slidesToShow: 2,
@@ -26,13 +29,19 @@ function BackedBySection() {
 			{
 				breakpoint: 768, 
 				settings: {
+					dots:true,
+
+					className: 'slider-items align-items-center',
+
+		autoplay: true,
 					slidesToShow: 3,
-					slidesToScroll: 2,
+					slidesToScroll: 1,
 				},
 			},
 			{
 				breakpoint: 1700, 
 				settings: {
+					dots:true,
 					className: 'slider-items align-items-center',
 					slidesToShow: 4,
 					slidesToScroll: 2,
@@ -44,13 +53,13 @@ function BackedBySection() {
 
 	return (
 		<>
-			<Container>
-				<Row>
+			
+				<div className="col-10 mx-auto">
 					<p className={` text-center f-27 mt-4 fw-400 my-5`}>Relied upon by the most prominent data-centric enterprises globally.</p>
-				</Row>
+				</div>
 
-			</Container>
-			<Row className={`${style["backLogoDiv"]} `}>
+			
+			<div className={`${style["backLogoDiv"]} `}>
 				<Col md={11} className="d-flex justify-content-evenly align-items-center pad-0cus mx-auto my-2">
 					<Slider {...sliderSettingsback}  >
 						<div>
@@ -67,7 +76,7 @@ function BackedBySection() {
 						</div>
 					</Slider>
 				</Col>
-			</Row>
+			</div>
 
 		</>
 

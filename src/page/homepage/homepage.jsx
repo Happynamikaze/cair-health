@@ -29,7 +29,7 @@ function homePage() {
 			
 			<HomeSliderBG settings={sliderSettings} items={sliderItems} />
 			<CeoSection />
-			<BackedBySection />
+			 <BackedBySection />
 			<AboutProduct/>
 			<FormContact/>
 		</>

@@ -6,9 +6,28 @@
 }
 .productDivimg{
 	position: absolute;
+	border-radius: 12px;
 	/* display: ; */
 	object-fit: cover;
 	width: inherit;
+	
+}
 
+@media (max-width: 767px) {
+	.productImgDiv{
+		width: 300px;
+		height: 250px;
+		display: flex;
+		align-items: center;
+		margin: auto;
+	}
+	.productDivimg{
+	
+		position: absolute;
+		/* display: ; */
+		object-fit: cover;
+		width: inherit;
+		
+	}
 	
 }

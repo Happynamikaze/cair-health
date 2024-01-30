@@ -3,7 +3,7 @@ import styles from "./form.module.css";
 
 function FormContact() {
 	return (
-		<Container className={`${styles["containerForm"]} mt-5`}>
+		<div id="containerFormID" className={`${styles["containerForm"]}  mt-5 mx-auto col-md-6 col-10 `}>
 			<div className={`${styles["text"]}`}>Request a demo </div>
 			<form action="#" method="get">
 				<div className={`${styles["form-row"]}`}>
@@ -46,7 +46,7 @@ function FormContact() {
 					</div>
 				</div>
 			</form>
-		</Container>
+		</div>
 	);
 }
 

@@ -18,18 +18,19 @@ function HomeSliderBG({ settings, items, img }) {
 
             <div className={`${Styles["req_btn_div"]}`}>
                 <p className="text-center text-color-white f-25">Building AI-powered software to automate medical insurance workflows for healthcare providers and payers</p>
-
+                <a href="#containerFormID">
                 <p className={`${Styles['req_btn']} text-center text-color-white f-20 fw-500 mx-auto mt-3`}>Request a demo <BsArrowRight /> </p>
+                </a>
             </div>
 
-            <Container>
-
-                <div>
-                    <p className="text-center f-15 fw-500 ls-welcome my-5">Welcome to Cair Health, where innovation meets healthcare excellence. Discover how our cutting-edge platform is transforming the medical insurance claims process through the power of machine learning and LLMs. Streamlining, automating, and revolutionizing — experience the future of healthcare administration.</p>
-                </div>
 
 
-            </Container>
+            <div className="col-md-10 col-10 mx-auto">
+                <p className="text-center f-15 fw-500 ls-welcome my-5">Welcome to Cair Health, where innovation meets healthcare excellence. Discover how our cutting-edge platform is transforming the medical insurance claims process through the power of machine learning and LLMs. Streamlining, automating, and revolutionizing — experience the future of healthcare administration.</p>
+            </div>
+
+
+
         </>
     );
 }

@@ -21,19 +21,19 @@ function AboutProduct() {
 		    'Read through real-world case studies and testimonials showcasing the impact of Cair Health platform. See how healthcare providers have transformed their operations and improved patient care through our innovative solutions.'];
 	return (
 		<>
-			<Container>
-				<Row>
-					<Col md={12} className="text-center mt-5">
+			<div className="col-10 mx-auto ">
+				
+					<div  className="text-center mt-5">
 						<p className="f-25 fw-500">
 							Explore the Cair Health platform, a sophisticated solution designed to automate and optimize the medical insurance claims journey.
 						</p>
-					</Col>
-				</Row>
+					</div>
+			
 
 				<AboutProductimg productImg={productImages} productText={productTexts} productPera={productPeras} />
 
 
-			</Container>
+			</div>
 		</>
 	);
 }

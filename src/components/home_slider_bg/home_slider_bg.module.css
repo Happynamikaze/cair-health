@@ -10,10 +10,9 @@
 }
 .req_btn_div{
 	position: absolute;
-	top: 40%;
+	top: 40dvh;
 	right: 20%;
 	left: 20%;
-
 }
 .req_btn{
 	
@@ -31,4 +30,27 @@
 	color: var(--text-color-dark);
 	border: 2px solid var(--theme-blue-light);
 	background-color: var(--theme-bg-light);
+}
+
+
+
+@media (max-width: 767px) {
+	.req_btn_div{
+		top: 12dvh;
+		right: 5%;
+	left: 5%;
+	}
+	.widSet{
+		width: 100dvw;
+		max-height: 25dvh ;
+		object-fit: cover;
+	}
+	.req_btn{
+		width: 13rem;
+	}
+	.f-15{
+		font-size: 6px;
+	}
+
+	
 }
