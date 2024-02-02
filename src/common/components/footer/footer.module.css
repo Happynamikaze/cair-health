@@ -1,0 +1,19 @@
+.FooterBG{
+	background-color: var(--theme-blue-dark-light);
+}
+.FooterLogo{
+	border-radius: 2px;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+}
+ul li {
+	color: #252525;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.1s ease-in-out;
+}
+ul li:hover{
+	color: var(--theme-bg-light);		
+}

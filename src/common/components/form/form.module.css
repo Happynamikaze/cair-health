@@ -138,6 +138,15 @@ textarea:focus-visible{
     cursor: pointer;
     position: relative;
     z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.submit-btn .input-data input:hover {
+    background-color: var(--theme-blue-dark-light);
+    color: var(--text-color-white);
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 @media (max-width: 767px) {

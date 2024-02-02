@@ -8,6 +8,7 @@ import waveImg from "../../assets/slider_img/frequency-wave-.jpg";
 import BackedBySection from "../../common/components/backedBySection/backedBySection";
 import AboutProduct from "../../common/components/aboutProduct/aboutProduct";
 import FormContact from "../../common/components/form/form";
+import Footer from "../../common/components/footer/footer";
 
 
 
@@ -32,6 +33,7 @@ function homePage() {
 			 <BackedBySection />
 			<AboutProduct/>
 			<FormContact/>
+			<Footer/>
 		</>
 	);
 }
